@@ -4,10 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="TCC" />
-    <orderEntry type="module" module-name="gridstack.js-develop" />
-    <orderEntry type="module" module-name="TESTES APLICAÇÃO" />
-    <orderEntry type="module" module-name="TCC- V2.0" />
-    <orderEntry type="module" module-name="TCC- V2.0" />
   </component>
 </module>

@@ -1,95 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<?php include "cabecalho.php ";?>
+<?php include "menu.php ";?>
+<link href="dist/css/meuEstilo.css" rel="stylesheet">
 
-    <title>SEGURO</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Custom styles for this template -->
-    <link href="dist/css/carousel.css" rel="stylesheet">
-    <link href="dist/css/meuEstilo.css" rel="stylesheet">
-</head>
-<!-- NAVBAR
-================================================== -->
-
-<body>
-
-<div class="navbar-wrapper" >
-    <div class="container">
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">+Seguro</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Area do Segurado</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Produtos<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="produto.html">Seguros</a></li>
-                                <li><a href="#">Simule seu Seguro</a></li>
-                                <li><a href="#">Promoções</a></li>
-                            </ul>
-                        <li><a href="quem_somos.html">Quem Somos</a></li>
-                        <li><a href="#contact">Contato</a></li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </div>
-</div>
 <br/><br/>
 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 tipos main" >
     <h1 class="page-header">A Melhor Segurança Para o Seu Veiculo</h1>
 
     <div class="row placeholders">
         <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="#"><img src="_img/img4.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"></a>
-            <h4>Basico</h4>
-
+            <a href="descricao.php?plano=Basico"  ><img src="_img/img4.jpg" width="200" height="200" class="img-responsive"
+                                                        alt="Generic placeholder thumbnail"></a>
+            <label name="produto"><h4>Basico</h4></label>
         </div>
         <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="#"><img src="_img/img5.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+            <a href="descricao.php?plano=Intermediario"><img src="_img/img5.jpg" width="200" height="200" class="img-responsive"
+                                                             alt="Generic placeholder thumbnail"></a>
             <h4>Intermediario</h4>
 
         </div>
         <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="#"><img src="_img/img6.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+            <a href="descricao.php?plano=Avaçado"><img src="_img/img6.jpg" width="200" height="200" class="img-responsive"
+                                         alt="Generic placeholder thumbnail"></a>
             <h4>Avançado</h4>
 
         </div>
         <div class="col-xs-6 col-sm-3 placeholder">
-            <a href="#"><img src="_img/img7.jpg" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"></a>
+            <a href="descricao.php?plano=Premium"><img src="_img/img7.jpg" width="200" height="200" class="img-responsive"
+                                        alt="Generic placeholder thumbnail"></a>
             <h4>Premium</h4>
 
         </div>
     </div>
 
-    <h2 class="sub-header">Compare e Descubra o plano da +Seguro</h2>
+    <h2 class="sub-header">Section title</h2>
     <div class="table-responsive">
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>Beneficios</th>
+                <th>#</th>
                 <th>Basico</th>
                 <th>Intermediario</th>
                 <th>Premium</th>
@@ -219,21 +167,5 @@
     <hr>
 
     <!-- FOOTER -->
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+<?php include "rodape.php";?>
 
-</div><!-- /.container -->
-
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="dist/js/bootstrap.min.js"></script>
-
-</body>
-</html>

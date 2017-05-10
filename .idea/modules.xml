@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:/wamp64/www/TCC/.idea/TCC.iml" filepath="C:/wamp64/www/TCC/.idea/TCC.iml" />
-      <module fileurl="file://C:/wamp64/www/TCC- V2.0/.idea/TCC- V2.0.iml" filepath="C:/wamp64/www/TCC- V2.0/.idea/TCC- V2.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../../TCC/TESTES APLICAÇÃO/.idea/TESTES APLICAÇÃO.iml" filepath="$PROJECT_DIR$/../../../../../TCC/TESTES APLICAÇÃO/.idea/TESTES APLICAÇÃO.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/Nova pasta/gridstack.js-develop/.idea/gridstack.js-develop.iml" filepath="$USER_HOME$/Downloads/Nova pasta/gridstack.js-develop/.idea/gridstack.js-develop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/teste.iml" filepath="$PROJECT_DIR$/.idea/teste.iml" />
     </modules>
   </component>
