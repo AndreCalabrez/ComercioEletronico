@@ -1,11 +1,12 @@
 <?php include "cabecalho.php ";?>
 <?php include "menu.php ";?>
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<br />
-<div class="jumbotron" >
 
-    <div class="container">
-        <h2>Promoção</h2>
+<div class="jumbotron" style="background-image: url('_img/img15.jpg')">
+
+    <div class="container" >
+        <br/>
+        <h2 style="color: white">Promoção</h2>
     </div>
 </div>
 
@@ -18,7 +19,7 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="_img/img11.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
@@ -28,7 +29,7 @@
             <p class="lead">Pessoas com pouca usabilidade do carro.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="_img/img16.jpg" alt="Generic placeholder image">
         </div>
     </div>
     <div class="row featurette">
@@ -37,7 +38,7 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" src="_img/img4.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" src="_img/img18.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
