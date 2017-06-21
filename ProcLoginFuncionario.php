@@ -21,6 +21,8 @@ if($_POST){
     $prod = $resultado->fetchAll();
 
     if ($prod[0]['usuario'] != 0){
+        session_start();
+        $_SESSION['funcionario'] = $login;
         header("location: gerenciar.php");
 }else{
         echo "Usuario Não Existe";

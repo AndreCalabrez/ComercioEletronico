@@ -57,7 +57,7 @@ $_SESSION['nome'] = $prod[0]['nome'];
     <div class="row featurette">
 
         <div class="col-md-5">
-            <a href="ProcSair.php"> <img src="_img/logout.jpg"  height="80" width="170"> </a>
+            <a href="ProcSairCliente.php"> <img src="_img/logout.jpg" height="80" width="170"> </a>
             <table >
                 <tr>
                    <td colspan="2"><h4> Dados do Veiculo </h4></td>

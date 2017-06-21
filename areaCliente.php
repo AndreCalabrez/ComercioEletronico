@@ -59,7 +59,7 @@ AREA do CLIENTE
 
 <div class="container">
     <!-- Example row of columns -->
-    <a href="ProcSair.php"> <img src="_img/logout.jpg"  height="80" width="170"> </a>
+    <a href="ProcSairCliente.php"> <img src="_img/logout.jpg" height="80" width="170"> </a>
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Dados Pessoais</span></h2>

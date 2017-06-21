@@ -22,7 +22,7 @@
                             </ul>
                         <li><a href="quem_somos.php">Quem Somos</a></li>
                         <li><a href="contato.php">Contato</a></li>
-                        <li><a href="loginFuncionario.php">Área Restrita</a></li>
+                        <li><a href="gerenciar.php">Área Restrita</a></li>
                         </li>
                     </ul>
                 </div>

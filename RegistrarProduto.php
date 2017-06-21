@@ -19,8 +19,10 @@ if($_POST){
     $img2 = $_POST['img2'];
     $img3 = $_POST['img3'];
 
+    $datai = date('Y-m-d', strtotime($dataInicio));
 
 
+    $dataf = date('Y-m-d', strtotime($dataFim));
 
     $stmt = $conexaoBanco->prepare("INSERT INTO plano (nome,km_guincho, coberturaP, cobertura3, carroR, sVidro, sLanterna, 
                                dataInicio, dataFim, valor, descricao1, descricao2, img1, img2,img3) VALUES (?,? ,?,?,?,?,?,?,?,?, ?,?,?,?,?)");
@@ -32,8 +34,8 @@ if($_POST){
     $stmt->bindParam(5, $carroR);
     $stmt->bindParam(6, $sVidro);
     $stmt->bindParam(7, $sLanterna);
-    $stmt->bindParam(8, $dataInicio);
-    $stmt->bindParam(9, $dataFim);
+    $stmt->bindParam(8, $datai);
+    $stmt->bindParam(9, $dataf);
     $stmt->bindParam(10, $valor);
     $stmt->bindParam(11, $desc1);
     $stmt->bindParam(12, $desc2);
